@@ -851,7 +851,6 @@ body::-webkit-scrollbar {
     gap: 2rem;
     flex-direction: column;
     background: #03071ece;
-    z-index: 3;
 }
 
 .form-title {
