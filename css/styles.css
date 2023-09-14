@@ -13,6 +13,10 @@ html {
     scroll-padding-top: 5rem;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 :root {
     --bg-dark: #03071e;
     --bg-grey: #161a1d;
