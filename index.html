@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wild Hunt Books</title>
+    <link rel="shortcut icon" href="./assets/logo/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/animaciones.css">
+    <link rel="stylesheet" href="./css/mediaqueris.css">
+    <!-- icons link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+
+<body>
+
+
+    <!--Hero Section Start-->
+    <section id="hero">
+        <div class="hero-container">
+            <div class="hero-info">
+                <h1 class="hero-h1 blur-in-expand">Sumérgete en un Mundo de Intriga y Oscuridad Literaria</h1>
+                <p class="hero-p blur-in-expand">Bienvenido a nuestra biblioteca embrujada, donde las palabras cobran
+                    vida y los mundos de Stephen King, H.P. Lovecraft y Edgar Allan Poe te esperan con los brazos
+                    abiertos. Explora los recovecos más profundos de la mente humana a través de las páginas de estos
+                    maestros del suspense y la fantasía. Conviértete en un intrépido explorador de las dimensiones
+                    desconocidas, donde el miedo se mezcla con la maravilla y la oscuridad se convierte en tu compañia.
+                    Aquí encontrarás una colección seleccionada de sus obras más cautivadoras. ¿Estás listo para
+                    aventurarte en las sombras de la imaginación?</p>
+            </div>
+            <div class="hero-btn slide-up">
+                <a href="#banner">Ver Galería</a>
+            </div>
+        </div>
+    </section>
+    <!--Hero Section End-->
+
+    <!--Header & Nav start-->
+    <header class="header">
+        <div class="logo">
+            <a href="#hero">
+                <h2 class="logo-h">Wild Hunt Books ®</h2>
+            </a>
+        </div>
+
+
+
+        <nav class="navbar">
+
+            <div class="menu-label">
+                <img src="./assets/icons/menu-icon.png" alt="" class="menu-icon">
+            </div>
+
+            <ul class="nav-links">
+                <li class="nav-item">
+                    <span><a href="#banner">Home</a></span>
+                </li>
+                <li class="nav-item">
+                    <a href="#products">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact-banner">Contact</a>
+                </li>
+            </ul>
+
+        </nav>
+
+
+        <div class="cart-toggle">
+            <img src="./assets/icons/cart-icon.png" alt="cart-icon">
+            <div class="cart-bubble">0</div>
+        </div>
+
+
+        <div class="cart">
+            <h2>Tus Productos</h2>
+
+            <div class="cart-container"></div>
+
+            <span class="divider"></span>
+
+            <div class="cart-total">
+                <p>Total:</p>
+                <span class="total"></span>
+            </div>
+            <div class="cart-btn-container">
+                <button class="btn-buy">Comprar</button>
+                <button class="btn-delete">Vaciar Carrito</button>
+            </div>
+        </div>
+
+
+        <div class="overlay"></div>
+    </header>
+    <!--Header & Nav End-->
+
+    <!--Main Start-->
+    <main>
+
+        <!--Banner Start-->
+        <section id="banner">
+            <div class="banner-container">
+                <h2 class="banner-title">Libros Disponibles</h2>
+            </div>
+        </section>
+        <!--Banner End-->
+
+        <!--Product Section Start-->
+        <section id="products">
+            <div class="categories">
+                <button class="category">Todos</button>
+                <button class="category" data-category="king">Stephen King</button>
+                <button class="category" data-category="lovecraft">H.P. Lovecraft</button>
+                <button class="category" data-category="poe">Edgar Allan Poe</button>
+            </div>
+
+            <div class="products-container">
+                <!-- <div class="product">
+                    <div class="product-img">
+                        <img src="./assets/books/stephen-king/cuento-de-hadas.webp" alt="book">
+                    </div>
+                    <div class="product-info">
+                        <h4>Cuento de Hadas</h4>
+                        <div class="product-info-mid">
+                            <span>Autor:</span>
+                            <p>Stephen King</p>
+                        </div>
+                        <div class="product-info-bottom">
+                            <span>Precio:</span>
+                            <p> $1500</p>
+                        </div>
+                    </div>
+                    <div class="product-btn-container">
+                        <button class="product-btn">Añadir</button>    
+                    </div>
+                    
+                </div> -->
+            </div>
+
+            <button class="btn-load">Ver Más</button>
+        </section>
+        <!--Products Section End-->
+
+        <!--About us Section Start-->
+        <section id="about">
+            <div class="about-banner">
+                <h2 class="about-h">MÁS SOBRE NOSOTROS</h2>
+            </div>
+            <div class="about-container">
+                <div class="about-top">
+                    <div class="about-top-img">
+                        <img src="./assets/about-img/lovecraft-1.jpg" alt="lovecraft">
+                    </div>
+                    <div class="about-top-info">
+                        <h3 class="about-top-info-title">¡REALIZAMOS ENVÍOS A TODO EL PAÍS!</h3>
+                        <p class="about-top-info-p">Sabemos que la emoción de obtener tu próxima lectura de terror no
+                            debe limitarse por la distancia. Por eso, ofrecemos envíos a todo el país. Sin importar
+                            dónde te encuentres, nuestro compromiso es llevarte el terror directamente a tu puerta.</p>
+                    </div>
+                </div>
+                <div class="about-mid">
+                    <div class="about-mid-img">
+                        <img src="./assets/about-img/king-2.jpg" alt="king">
+                    </div>
+                    <div class="about-mid-info">
+                        <h3 class="about-mid-info-title">¡CUIDADO EXCEPCIONAL DE TUS LIBROS!</h3>
+                        <p class="about-mid-info-p">Entendemos lo valiosos que son tus libros de terror. Cada uno de
+                            nuestros envíos está diseñado para garantizar que tus libros lleguen en perfecto estado.
+                            Utilizamos embalajes cuidadosamente seleccionados y técnicas de envío seguras para proteger
+                            cada página impregnada de suspenso y cada portada que te hará temblar. Tu satisfacción y la
+                            integridad de tus libros son nuestras principales prioridades.</p>
+                    </div>
+                </div>
+                <div class="about-bottom">
+                    <div class="about-bottom-img">
+                        <img src="./assets/about-img/poe-3.jpg" alt="poe">
+
+                    </div>
+                    <div class="about-bottom-info">
+                        <h3 class="about-bottom-info-title">¡ENVÍOS DISPONIBLES TODA LA SEMANA!</h3>
+                        <p class="about-bottom-info-p">No queremos que esperes demasiado para sumergirte en el terror.
+                            Es por eso que estamos comprometidos a ofrecer envíos durante toda la semana. Sin importar
+                            cuándo hagas tu pedido, trabajaremos incansablemente para asegurarnos de que tus libros de
+                            terror estén en tus manos lo más rápido posible. Así que, ¡nunca tendrás que esperar mucho
+                            tiempo para experimentar nuevas pesadillas literarias!</p>
+                    </div>
+                </div>
+        </section>
+        <!--About us Section End-->
+
+        <!-- Contact Section Start -->
+
+        <!--banner-->
+        <section id="contact-banner">
+            <h2 class="contact-h">Contacto</h2>
+        </section>
+        <!--banner-->
+
+        <section id="contact">
+
+
+
+            <form class="form-container" id="contact-form" novalidate>
+
+                <p class="form-title">¡Dejanos tus datos para recibir información!</p>
+
+                <!-- Nombre -->
+                <div class="form-field">
+                    <input type="text" placeholder="Nombre" class="form-input" id="name" autocomplete="off" />
+                    <small></small>
+                </div>
+                <!-- Nombre -->
+
+                <!-- Apellido -->
+                <div class="form-field">
+                    <input type="text" placeholder="Apellido" class="form-input" id="lastName" autocomplete="off" />
+                    <small></small>
+                </div>
+                <!-- Apellido -->
+
+                <!-- Email -->
+                <div class="form-field">
+                    <input type="email" placeholder="Email" class="form-input" id="email" autocomplete="off" />
+                    <small></small>
+                </div>
+                <!-- Email -->
+
+                <!-- Telefono -->
+                <div class="form-field">
+                    <input type="text" placeholder="Teléfono" class="form-input" id="phone" autocomplete="off" />
+                    <small></small>
+                </div>
+                <!-- Telefono -->
+
+                <input type="submit" class="form-submit-btn" value="Enviar Datos" />
+
+            </form>
+
+        </section>
+
+        <!-- Contact Section End -->
+
+
+    </main>
+    <!--Main End-->
+
+
+    <!--###- Footer Start -###-->
+    <footer id="footer">
+
+        <!--icons-->
+        <div class="rs-container">
+            <a href="#"> <i class="fab fa-instagram"></i> </a>
+            <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+            <a href="#"> <i class="fab fa-twitter"></i> </a>
+        </div>
+        <!--icons-->
+
+        <!--logo-->
+        <div class="footer-logo">
+            <a href="#hero">
+                <h2 class="footer-logo-h">Wild Hunt Books</h2>
+            </a>
+        </div>
+        <!--logo-->
+
+
+        <!--copyright-->
+
+        <div class="copyright">
+            <p>copyright © 2023 all rights reserved</p>
+        </div>
+        <!--copyright-->
+
+    </footer>
+    <!--###- Footer End -###-->
+
+
+    <!-- modal y scripts -->
+    <div class="add-modal"></div>
+    <script src="./data.js"></script>
+    <script src="./main.js"></script>
+    <script src="./contact.js"></script>
+    <!-- modal y scripts -->
+</body>
+
+</html>
