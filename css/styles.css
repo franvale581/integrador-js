@@ -363,7 +363,7 @@ body::-webkit-scrollbar {
 #hero {
     width: 100%;
     height: 800px;
-    background-image: url(../assets/bg/hero-bg.jpg);
+    background-image: url(../assets/bg/contact-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -831,8 +831,19 @@ body::-webkit-scrollbar {
     background-attachment: fixed;
 }
 
+.contact-bg-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    background: #3c096c80;
+    gap: 4rem;
+}
+
 .form-container {
-    width: 80%;
+    width: 28rem;
     height: 38rem;
     display: flex;
     justify-content: center;
@@ -840,6 +851,7 @@ body::-webkit-scrollbar {
     gap: 2rem;
     flex-direction: column;
     background: #03071ece;
+    z-index: 3;
 }
 
 .form-title {
@@ -861,7 +873,7 @@ body::-webkit-scrollbar {
 
 .form-input {
     width: 20em;
-    height: 2.8em;
+    height: 2.2em;
     border: 1px solid var(--bg-gold);
     border-radius: 8px;
     background: var(--btn-dark-purple);
