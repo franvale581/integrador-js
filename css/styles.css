@@ -465,7 +465,7 @@ body::-webkit-scrollbar {
     justify-content: center;
     align-items: center;
     padding: 30px 0;
-    background: linear-gradient(135deg, #240046 0%, #783f8e 100%);
+    background: radial-gradient( #460606 35%, #030303);
   }
 
 .categories {
@@ -480,12 +480,14 @@ body::-webkit-scrollbar {
     border: none;
     width: 10rem;
     height: 3rem;
-    background: var(--btn-purple);
+    background: var(--bg-purple);
     border-radius: 5px;
     cursor: pointer;
-    color: var(--txt-light);
-    font-size: 1rem;
-    letter-spacing: 2px;
+    color: var(--bg-gold);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    font-size: 0.8rem; 
+    border: 1px solid var(--bg-gold);
 }
 
 .products-container {
@@ -497,34 +499,34 @@ body::-webkit-scrollbar {
 
 .product {
     height: 38rem;
-    width: 20rem;
-    background: var(--bg-dark);
+    width: 22rem;
+    background: linear-gradient(145deg, #03071e 35%, #0c1d7c);
     display: flex;
     flex-direction: column;
     border-radius: 2px;
-    border: 2px solid var(--bg-grey);
+    border: 2px solid var(--bg-gold);
     box-shadow: 0 0 3px 7px var(--bg-dark);
 }
 
 .product-img {
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
+    padding: 1rem;
 }
 
 .product-img img {
-    height: 22rem;
+    height: 20rem;
     border: 2px solid var(--bg-gold);
     border-radius: 2px;
 }
 
 .product-info h4 {
     text-align: center;
-    margin-top: 1rem;
+    padding-top: 1rem;
     display: flex;
     justify-content: center;
     color: var(--bg-gold);
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
@@ -553,9 +555,6 @@ body::-webkit-scrollbar {
     font-size: 1.5rem;
     font-weight: 400;
     gap: 0.7rem;
-    border-left: 2px solid var(--bg-dark);
-    border-right: 2px solid var(--bg-dark);
-    border-radius: 3px;
     letter-spacing: 2px;
 }
 
@@ -572,7 +571,8 @@ body::-webkit-scrollbar {
 .btn-add {
     margin-top: 1.1rem;
     border: none;
-    background: var(--bg-grey);
+    background: linear-gradient(135deg, #050046 0%, #001aff 100%);
+    border: 1px solid var(--bg-gold);
     color: var(--bg-gold);
     width: 7rem;
     height: 2rem;
@@ -605,7 +605,7 @@ body::-webkit-scrollbar {
 #about {
     width: 100%;
     height: 1400px;
-    background: linear-gradient(135deg, #240046 0%, #783f8e 100%);
+    background: radial-gradient( #460606 35%, #030303);
 }
 
 .about-banner {
@@ -987,7 +987,7 @@ body::-webkit-scrollbar {
   }
 
 .active {
-    background: #783f8e;
+    background: #4f1271;
     transform: scale(0.96);
     transition: all 0.3s ease-in-out;
 }

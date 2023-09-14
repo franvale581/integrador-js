@@ -145,3 +145,80 @@
 
 
 /*---////---// main mediaqueris //---////---*/
+
+
+@media screen and (max-width: 1253px) {
+
+  /*products*/
+
+  .products-container {
+    padding: 6rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+}
+
+  /*products*/
+
+
+  /*/////--about--/////*/
+
+
+/*--- about top ---*/
+
+.about-top-info {
+  padding: 0;
+}
+
+.about-top-info-title {
+  font-size: 1rem;
+}
+
+.about-top-info-p {
+  font-size: 0.9rem;
+  padding: 0 2rem;
+}
+
+/*--- about top ---*/
+
+/*--- about mid ---*/
+
+.about-mid-info {
+  padding: 0;
+}
+
+.about-mid-info-title {
+  font-size: 1rem;
+}
+
+.about-mid-info-p {
+  font-size: 0.9rem;
+  padding: 0 2rem;
+}
+
+/*--- about mid ---*/
+
+/*--- about bottom ---*/
+
+.about-bottom-info {
+  padding: 0;
+}
+
+.about-bottom-info-title {
+  font-size: 1rem;
+}
+
+.about-bottom-info-p {
+  color: var(--bg-gold);
+  font-size: 0.9rem;
+  padding: 0 2rem;
+  font-weight: 800;
+}
+
+/*--- about bottom ---*/
+
+  /*/////--about--/////*/
+
+
+
+}
