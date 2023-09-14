@@ -824,7 +824,7 @@ body::-webkit-scrollbar {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../assets/bg/hero-bg.jpg);
+    background-image: url(../assets/bg/contact-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
