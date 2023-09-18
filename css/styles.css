@@ -385,7 +385,7 @@ body::-webkit-scrollbar {
 
 .hero-info {
     display: flex;
-    width: 50%;
+    width: 80%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
