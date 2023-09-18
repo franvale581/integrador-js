@@ -255,6 +255,36 @@
 
   /*/////--about--/////*/
 
+/*----banners mediaqueris----*/
+
+/*1*/
+#banner {
+  height: 10rem;
+}
+
+.banner-title {
+  font-size: 2rem;
+}
+
+/*2*/
+.about-banner {
+  height: 10rem;
+}
+
+.about-h {
+  font-size: 2rem;
+}
+
+/*3*/
+#contact-banner {
+  height: 10rem;
+}
+
+.contact-h {
+  font-size: 2rem;
+}
+
+/*----banners mediaqueris----*/
 
 
 }
