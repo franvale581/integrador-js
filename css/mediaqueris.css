@@ -194,6 +194,15 @@
     gap: 5rem;
 }
 
+.product {
+  width: 20rem;
+  height: 34rem;
+}
+
+.product-img img {
+  height: 16rem;
+}
+
   /*products*/
 
 
