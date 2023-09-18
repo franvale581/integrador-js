@@ -185,7 +185,22 @@
   /*--/---//--Hero--//---/--*/
 
 
-  /*products*/
+  /*-//--/ categories /--//-*/
+
+.categories {
+  gap: 2rem;
+}
+
+.category {
+  width: 9rem;
+  height: 2.5rem;
+}
+
+
+  /*-//--/ categories /--//-*/
+
+ 
+  /*-//--/// products ///--//-*/
 
   .products-container {
     padding: 6rem 2rem;
@@ -203,10 +218,10 @@
   height: 16rem;
 }
 
-  /*products*/
+  /*-//--/// products ///--//-*/
 
 
-  /*/////--about--/////*/
+  /*/--////--about--////--/*/
 
 
 /*--- about top ---*/
@@ -262,7 +277,7 @@
 
 /*--- about bottom ---*/
 
-  /*/////--about--/////*/
+  /*/--////--about--////--/*/
 
 /*----banners mediaqueris----*/
 
