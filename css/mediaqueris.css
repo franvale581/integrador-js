@@ -412,7 +412,7 @@
   /*-//--/ products /--//-*/
 
   .products-container {
-    padding: 6rem 2rem;
+    padding: 3rem 0rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
@@ -713,9 +713,16 @@
 
     .categories {
       column-gap: 2rem;
-      padding-top: 3rem;
+      padding-top: 2rem;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .category {
+      margin: 0;
+      width: 8rem;
+      height: 2.5rem;
+      font-size: 0.6rem;
     }
   
     /*-//--/ categories /--//-*/
