@@ -412,16 +412,16 @@
    padding: 6rem 2rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .product {
-  width: 15rem;
-  height: 30rem;
+  width: 13rem;
+  height: 25rem;
 }
 
 .product-img img {
-  height: 12rem;
+  height: 10rem;
 }
 
 .product-info h4 {
@@ -447,23 +447,55 @@
 }
 
 .btn-add {
-  margin-top: 1.1rem;
-  border: none;
-  background: linear-gradient(135deg, #050046 0%, #001aff 100%);
-  border: 1px solid var(--bg-gold);
-  color: var(--bg-gold);
   width: 7rem;
   height: 2rem;
   font-size: 0.8rem;
-  text-transform: uppercase;
-  cursor: pointer;
-  font-weight: 800;
-  letter-spacing: 2px;
-  border-radius: 5px;
+
+}
+  /*-//--/ products /--//-*/
+
+
+  /*/--////--about--////--/*/
+
+  /*--- about top ---*/
+
+.about-top {
+  background: radial-gradient( #460606 35%, #030303);
+}
+
+.about-top-img {
+  display: none;
+}
+
+/*--- about top ---*/
+
+/*--- about mid ---*/
+
+.about-mid {
+  background: radial-gradient( #460606 35%, #030303);
+}
+
+.about-mid-img {
+  display: none;
 }
 
 
-  /*-//--/ products /--//-*/
+/*--- about mid ---*/
+
+/*--- about bottom ---*/
+
+.about-bottom {
+  background: radial-gradient( #460606 35%, #030303);
+}
+
+.about-bottom-img {
+  display: none;
+}
+
+
+/*--- about bottom ---*/
+
+  /*/--////--about--////--/*/
 
 
 }
