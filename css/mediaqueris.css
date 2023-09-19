@@ -685,8 +685,8 @@
   /*//////-----/CONTACT/------///////*/
 
 .form-container {
-    width: 24rem;
-    height: 32rem;
+    width: 23rem;
+    height: 30rem;
     gap: 2rem;
 }
 
@@ -708,5 +708,16 @@
   }
 
   /*//////-----/CONTACT/------///////*/
+
+    /*-//--/ categories /--//-*/
+
+    .categories {
+      column-gap: 2rem;
+      padding-top: 3rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    /*-//--/ categories /--//-*/
 
 }
