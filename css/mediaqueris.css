@@ -503,4 +503,38 @@
   /*/--////--about--////--/*/
 
 
+
+  /*----banners mediaqueris----*/
+
+  /*1*/
+  #banner {
+    height: 8rem;
+  }
+
+  .banner-title {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  /*2*/
+  .about-banner {
+    height: 8rem;
+  }
+
+  .about-h {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  /*3*/
+  #contact-banner {
+    height: 8rem;
+  }
+
+  .contact-h {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  /*----banners mediaqueris----*/  
 }
