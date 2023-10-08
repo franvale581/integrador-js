@@ -15,18 +15,7 @@ html {
 
 
 body::-webkit-scrollbar {
-    width: 0.9rem;
-  }
-  
-body::-webkit-scrollbar-track {
-    background: radial-gradient( #460606 35%, #030303);
-    border: 1px solid var(--bg-dark);
-}
-  
-  body::-webkit-scrollbar-thumb {
-    background: radial-gradient( #680303 35%, #000000);
-    border-radius: 4px;
-    border: 1px solid var(--bg-gold);
+    display: none;
   }
 
 :root {
